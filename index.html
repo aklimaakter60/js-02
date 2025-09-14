@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JavaScript Events</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!--css links-->
+	<link rel="stylesheet"  href="style.css">
+</head>
+<body onload="onLoad()" onresize='windowResize()' onscroll="onScroll()">
+	<h1 id="title">JavaScript is fun</h1>
+	<button onclick="subscribe()" id="btn">Subscribe</button>
+	<h2 id="text"></h2>
+	<button  id="like"><i class="fa-regular fa-thumbs-up"></i> Like</button>
+
+	<form action="" id="form" onkeypress="keyPress()" >
+		<label for="">Name</label>
+		<input type="text" placeholder="Enter your name">
+		<label for="">Email</label>
+		<input type="email" placeholder="Enter your email">
+		<label for="">Massege</label>
+		<textarea id="textarea" placeholder="Enter your massege"></textarea>
+		<input type="submit" value="send massege">
+	</form>
+	<ul id=ul>
+		<li>Hellow</li>
+		<li>Hellow</li>
+		<li>Hellow</li>
+		<li>Hellow</li>
+	</ul>
+
+  <!--js links-->
+   <script src="script.js"></script>
+</body>
+</html>
